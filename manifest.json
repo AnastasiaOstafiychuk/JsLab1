@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Текстовий Конвертер",
+  "version": "1.0",
+  "description": "Розширення для конвертації тексту великими літерами",
+  "browser_action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
